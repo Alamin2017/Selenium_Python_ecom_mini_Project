@@ -58,8 +58,6 @@ checkout=driver.find_element(By.XPATH,"//*[@id='cart']/ul/li[2]/div/p/a[2]")
 checkout.click()
 
 
-
-
 #guest_account
 driver.implicitly_wait(30)
 driver.find_element(By.XPATH,"//input[@value='guest']").click()
